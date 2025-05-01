@@ -1,0 +1,37 @@
+# vim:fileencoding=utf-8:ft=conf:foldmethod=marker
+
+#: Fonts {{{
+
+#: kitty has very powerful font management. You can configure
+#: individual font faces and even specify special fonts for particular
+#: characters.
+
+# font_family      monospace
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
+
+#: You can specify different fonts for the bold/italic/bold-italic
+#: variants. To get a full list of supported fonts use the `kitty
+#: list-fonts` command. By default they are derived automatically, by
+#: the OSes font system. Setting them manually is useful for font
+#: families that have many weight variants like Book, Medium, Thick,
+#: etc. For example::
+# font_family      Operator Mono Book
+# bold_font        Operator Mono Medium
+# italic_font      Operator Mono Book Italic
+# bold_italic_font Operator Mono Medium Italic
+
+font_size 13.0
+
+#: Font size (in pts)
+
+force_ltr no
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="MesloLGS NF"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
